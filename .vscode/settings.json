@@ -1,0 +1,16 @@
+{
+    "sqltools.connections": [
+        {
+            "previewLimit": 50,
+            "driver": "SQLite",
+            "name": "flaskr",
+            "database": "/Users/gyh/Coding/python/web_file_process/instance/flaskr.sqlite"
+        },
+        {
+            "previewLimit": 50,
+            "driver": "SQLite",
+            "name": "watchlist",
+            "database": "${workspaceFolder:web_file_process}/data.db"
+        }
+    ]
+}
